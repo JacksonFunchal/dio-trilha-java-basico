@@ -16,10 +16,8 @@ public class ContaTerminal {
         System.out.println("Agencia:");
         String agencia = scanner.next();
 
-        scanner.nextLine(); 
-
         System.out.println("Nome do Cliente:");
-        String nome = scanner.nextLine();
+        String nome = scanner.next();
 
         System.out.println("Saldo:");
         double saldo = scanner.nextDouble();
